@@ -1,0 +1,813 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F0842BFBE068D9D8AE0B908 /* Pods_GVanillaTableViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A92F195E4C6809D6B78CC4 /* Pods_GVanillaTableViewTests.framework */; };
+		450FF0C31E89788000534E6E /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450FF0BB1E89788000534E6E /* Assets.swift */; };
+		450FF0C41E89788000534E6E /* BaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450FF0BC1E89788000534E6E /* BaseClass.swift */; };
+		450FF0C51E89788000534E6E /* Contributor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450FF0BD1E89788000534E6E /* Contributor.swift */; };
+		450FF0C61E89788000534E6E /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450FF0BE1E89788000534E6E /* Data.swift */; };
+		450FF0C71E89788000534E6E /* LargeThumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450FF0BF1E89788000534E6E /* LargeThumb.swift */; };
+		450FF0C81E89788000534E6E /* Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450FF0C01E89788000534E6E /* Preview.swift */; };
+		450FF0C91E89788000534E6E /* SmallThumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450FF0C11E89788000534E6E /* SmallThumb.swift */; };
+		450FF0CA1E89788000534E6E /* SpellcheckInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450FF0C21E89788000534E6E /* SpellcheckInfo.swift */; };
+		450FF0CD1E897A2B00534E6E /* GVanillaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450FF0CB1E897A2B00534E6E /* GVanillaTableViewCell.swift */; };
+		450FF0CE1E897A2B00534E6E /* GVanillaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 450FF0CC1E897A2B00534E6E /* GVanillaTableViewCell.xib */; };
+		450FF0D01E897BE900534E6E /* CoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450FF0CF1E897BE900534E6E /* CoreService.swift */; };
+		450FF0D21E897D7E00534E6E /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450FF0D11E897D7E00534E6E /* ImageService.swift */; };
+		45BFA5181E897514004E33FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BFA5171E897514004E33FC /* AppDelegate.swift */; };
+		45BFA51A1E897514004E33FC /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BFA5191E897514004E33FC /* TableViewController.swift */; };
+		45BFA51D1E897514004E33FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45BFA51B1E897514004E33FC /* Main.storyboard */; };
+		45BFA51F1E897514004E33FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45BFA51E1E897514004E33FC /* Assets.xcassets */; };
+		45BFA5221E897514004E33FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45BFA5201E897514004E33FC /* LaunchScreen.storyboard */; };
+		45BFA52D1E897514004E33FC /* GVanillaTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BFA52C1E897514004E33FC /* GVanillaTableViewTests.swift */; };
+		45BFA5381E897514004E33FC /* GVanillaTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BFA5371E897514004E33FC /* GVanillaTableViewUITests.swift */; };
+		8FAEB7C329EE5C41F48D7714 /* Pods_GVanillaTableViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149583D4BF95A7CE8638D468 /* Pods_GVanillaTableViewUITests.framework */; };
+		F1B6C00A132B663651CAF414 /* Pods_GVanillaTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE8795719A4A6E0AD271E9B /* Pods_GVanillaTableView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45BFA5291E897514004E33FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45BFA50C1E897514004E33FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45BFA5131E897514004E33FC;
+			remoteInfo = GVanillaTableView;
+		};
+		45BFA5341E897514004E33FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45BFA50C1E897514004E33FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45BFA5131E897514004E33FC;
+			remoteInfo = GVanillaTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13725626495BDB03174EFFB4 /* Pods-GVanillaTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GVanillaTableView.release.xcconfig"; path = "../Pods/Target Support Files/Pods-GVanillaTableView/Pods-GVanillaTableView.release.xcconfig"; sourceTree = "<group>"; };
+		149583D4BF95A7CE8638D468 /* Pods_GVanillaTableViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GVanillaTableViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1812344F05E7577566383A9E /* Pods-GVanillaTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GVanillaTableView.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-GVanillaTableView/Pods-GVanillaTableView.debug.xcconfig"; sourceTree = "<group>"; };
+		25F3E0B6F2BFAB892EBAB915 /* Pods-GVanillaTableViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GVanillaTableViewUITests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-GVanillaTableViewUITests/Pods-GVanillaTableViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		31A92F195E4C6809D6B78CC4 /* Pods_GVanillaTableViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GVanillaTableViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		450FF0BB1E89788000534E6E /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Assets.swift; path = Models/Assets.swift; sourceTree = "<group>"; };
+		450FF0BC1E89788000534E6E /* BaseClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseClass.swift; path = Models/BaseClass.swift; sourceTree = "<group>"; };
+		450FF0BD1E89788000534E6E /* Contributor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Contributor.swift; path = Models/Contributor.swift; sourceTree = "<group>"; };
+		450FF0BE1E89788000534E6E /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Data.swift; path = Models/Data.swift; sourceTree = "<group>"; };
+		450FF0BF1E89788000534E6E /* LargeThumb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LargeThumb.swift; path = Models/LargeThumb.swift; sourceTree = "<group>"; };
+		450FF0C01E89788000534E6E /* Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Preview.swift; path = Models/Preview.swift; sourceTree = "<group>"; };
+		450FF0C11E89788000534E6E /* SmallThumb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SmallThumb.swift; path = Models/SmallThumb.swift; sourceTree = "<group>"; };
+		450FF0C21E89788000534E6E /* SpellcheckInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpellcheckInfo.swift; path = Models/SpellcheckInfo.swift; sourceTree = "<group>"; };
+		450FF0CB1E897A2B00534E6E /* GVanillaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GVanillaTableViewCell.swift; path = Views/GVanillaTableViewCell.swift; sourceTree = "<group>"; };
+		450FF0CC1E897A2B00534E6E /* GVanillaTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GVanillaTableViewCell.xib; path = Views/GVanillaTableViewCell.xib; sourceTree = "<group>"; };
+		450FF0CF1E897BE900534E6E /* CoreService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreService.swift; sourceTree = "<group>"; };
+		450FF0D11E897D7E00534E6E /* ImageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		45BFA5141E897514004E33FC /* GVanillaTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GVanillaTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45BFA5171E897514004E33FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45BFA5191E897514004E33FC /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		45BFA51C1E897514004E33FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45BFA51E1E897514004E33FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45BFA5211E897514004E33FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45BFA5231E897514004E33FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45BFA5281E897514004E33FC /* GVanillaTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GVanillaTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45BFA52C1E897514004E33FC /* GVanillaTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GVanillaTableViewTests.swift; sourceTree = "<group>"; };
+		45BFA52E1E897514004E33FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45BFA5331E897514004E33FC /* GVanillaTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GVanillaTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45BFA5371E897514004E33FC /* GVanillaTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GVanillaTableViewUITests.swift; sourceTree = "<group>"; };
+		45BFA5391E897514004E33FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E348F91BFD17B564F7E21EE /* Pods-GVanillaTableViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GVanillaTableViewTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-GVanillaTableViewTests/Pods-GVanillaTableViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2B4C20155C8712BD63BFB2E /* Pods-GVanillaTableViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GVanillaTableViewTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-GVanillaTableViewTests/Pods-GVanillaTableViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		DBE8795719A4A6E0AD271E9B /* Pods_GVanillaTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GVanillaTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3DCAFFB54A7DA3BE35EE0A9 /* Pods-GVanillaTableViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GVanillaTableViewUITests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-GVanillaTableViewUITests/Pods-GVanillaTableViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45BFA5111E897514004E33FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1B6C00A132B663651CAF414 /* Pods_GVanillaTableView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BFA5251E897514004E33FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F0842BFBE068D9D8AE0B908 /* Pods_GVanillaTableViewTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BFA5301E897514004E33FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FAEB7C329EE5C41F48D7714 /* Pods_GVanillaTableViewUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FA0884DEC6059B84EF246B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1812344F05E7577566383A9E /* Pods-GVanillaTableView.debug.xcconfig */,
+				13725626495BDB03174EFFB4 /* Pods-GVanillaTableView.release.xcconfig */,
+				9E348F91BFD17B564F7E21EE /* Pods-GVanillaTableViewTests.debug.xcconfig */,
+				C2B4C20155C8712BD63BFB2E /* Pods-GVanillaTableViewTests.release.xcconfig */,
+				E3DCAFFB54A7DA3BE35EE0A9 /* Pods-GVanillaTableViewUITests.debug.xcconfig */,
+				25F3E0B6F2BFAB892EBAB915 /* Pods-GVanillaTableViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		31F8CF770AC41469AE458811 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBE8795719A4A6E0AD271E9B /* Pods_GVanillaTableView.framework */,
+				31A92F195E4C6809D6B78CC4 /* Pods_GVanillaTableViewTests.framework */,
+				149583D4BF95A7CE8638D468 /* Pods_GVanillaTableViewUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		450FF0B71E89771A00534E6E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				450FF0BB1E89788000534E6E /* Assets.swift */,
+				450FF0BC1E89788000534E6E /* BaseClass.swift */,
+				450FF0BD1E89788000534E6E /* Contributor.swift */,
+				450FF0BE1E89788000534E6E /* Data.swift */,
+				450FF0BF1E89788000534E6E /* LargeThumb.swift */,
+				450FF0C01E89788000534E6E /* Preview.swift */,
+				450FF0C11E89788000534E6E /* SmallThumb.swift */,
+				450FF0C21E89788000534E6E /* SpellcheckInfo.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		450FF0B81E89772800534E6E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				450FF0CB1E897A2B00534E6E /* GVanillaTableViewCell.swift */,
+				450FF0CC1E897A2B00534E6E /* GVanillaTableViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		450FF0B91E89772C00534E6E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				45BFA5191E897514004E33FC /* TableViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		450FF0BA1E89773200534E6E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				450FF0CF1E897BE900534E6E /* CoreService.swift */,
+				450FF0D11E897D7E00534E6E /* ImageService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		45BFA50B1E897514004E33FC = {
+			isa = PBXGroup;
+			children = (
+				45BFA5161E897514004E33FC /* GVanillaTableView */,
+				45BFA52B1E897514004E33FC /* GVanillaTableViewTests */,
+				45BFA5361E897514004E33FC /* GVanillaTableViewUITests */,
+				45BFA5151E897514004E33FC /* Products */,
+				1FA0884DEC6059B84EF246B5 /* Pods */,
+				31F8CF770AC41469AE458811 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		45BFA5151E897514004E33FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45BFA5141E897514004E33FC /* GVanillaTableView.app */,
+				45BFA5281E897514004E33FC /* GVanillaTableViewTests.xctest */,
+				45BFA5331E897514004E33FC /* GVanillaTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45BFA5161E897514004E33FC /* GVanillaTableView */ = {
+			isa = PBXGroup;
+			children = (
+				450FF0BA1E89773200534E6E /* Services */,
+				450FF0B81E89772800534E6E /* Views */,
+				450FF0B71E89771A00534E6E /* Models */,
+				450FF0B91E89772C00534E6E /* Controllers */,
+				45BFA5171E897514004E33FC /* AppDelegate.swift */,
+				45BFA51B1E897514004E33FC /* Main.storyboard */,
+				45BFA51E1E897514004E33FC /* Assets.xcassets */,
+				45BFA5201E897514004E33FC /* LaunchScreen.storyboard */,
+				45BFA5231E897514004E33FC /* Info.plist */,
+			);
+			path = GVanillaTableView;
+			sourceTree = "<group>";
+		};
+		45BFA52B1E897514004E33FC /* GVanillaTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				45BFA52C1E897514004E33FC /* GVanillaTableViewTests.swift */,
+				45BFA52E1E897514004E33FC /* Info.plist */,
+			);
+			path = GVanillaTableViewTests;
+			sourceTree = "<group>";
+		};
+		45BFA5361E897514004E33FC /* GVanillaTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45BFA5371E897514004E33FC /* GVanillaTableViewUITests.swift */,
+				45BFA5391E897514004E33FC /* Info.plist */,
+			);
+			path = GVanillaTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45BFA5131E897514004E33FC /* GVanillaTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45BFA53C1E897514004E33FC /* Build configuration list for PBXNativeTarget "GVanillaTableView" */;
+			buildPhases = (
+				1C13B32BEDFB2CDE441E9B70 /* [CP] Check Pods Manifest.lock */,
+				45BFA5101E897514004E33FC /* Sources */,
+				45BFA5111E897514004E33FC /* Frameworks */,
+				45BFA5121E897514004E33FC /* Resources */,
+				D20FCCACAA77631B16696ACA /* [CP] Embed Pods Frameworks */,
+				869A5D339A9F09583E70F193 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GVanillaTableView;
+			productName = GVanillaTableView;
+			productReference = 45BFA5141E897514004E33FC /* GVanillaTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45BFA5271E897514004E33FC /* GVanillaTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45BFA53F1E897514004E33FC /* Build configuration list for PBXNativeTarget "GVanillaTableViewTests" */;
+			buildPhases = (
+				D918B0CBBFAA63E89F2011F1 /* [CP] Check Pods Manifest.lock */,
+				45BFA5241E897514004E33FC /* Sources */,
+				45BFA5251E897514004E33FC /* Frameworks */,
+				45BFA5261E897514004E33FC /* Resources */,
+				95B2FE85D7FD9A163C02D8E9 /* [CP] Embed Pods Frameworks */,
+				C5D16D09AED050415CEE2A65 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45BFA52A1E897514004E33FC /* PBXTargetDependency */,
+			);
+			name = GVanillaTableViewTests;
+			productName = GVanillaTableViewTests;
+			productReference = 45BFA5281E897514004E33FC /* GVanillaTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45BFA5321E897514004E33FC /* GVanillaTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45BFA5421E897514004E33FC /* Build configuration list for PBXNativeTarget "GVanillaTableViewUITests" */;
+			buildPhases = (
+				32F7642DD7DD0B0625BFD463 /* [CP] Check Pods Manifest.lock */,
+				45BFA52F1E897514004E33FC /* Sources */,
+				45BFA5301E897514004E33FC /* Frameworks */,
+				45BFA5311E897514004E33FC /* Resources */,
+				5F7C00115529C7CD46F77E28 /* [CP] Embed Pods Frameworks */,
+				96D71F59563DEC12924EE60D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45BFA5351E897514004E33FC /* PBXTargetDependency */,
+			);
+			name = GVanillaTableViewUITests;
+			productName = GVanillaTableViewUITests;
+			productReference = 45BFA5331E897514004E33FC /* GVanillaTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45BFA50C1E897514004E33FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Citus Labs";
+				TargetAttributes = {
+					45BFA5131E897514004E33FC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = RE4YFXSB23;
+						ProvisioningStyle = Automatic;
+					};
+					45BFA5271E897514004E33FC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = RE4YFXSB23;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 45BFA5131E897514004E33FC;
+					};
+					45BFA5321E897514004E33FC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = RE4YFXSB23;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 45BFA5131E897514004E33FC;
+					};
+				};
+			};
+			buildConfigurationList = 45BFA50F1E897514004E33FC /* Build configuration list for PBXProject "GVanillaTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45BFA50B1E897514004E33FC;
+			productRefGroup = 45BFA5151E897514004E33FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45BFA5131E897514004E33FC /* GVanillaTableView */,
+				45BFA5271E897514004E33FC /* GVanillaTableViewTests */,
+				45BFA5321E897514004E33FC /* GVanillaTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45BFA5121E897514004E33FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BFA5221E897514004E33FC /* LaunchScreen.storyboard in Resources */,
+				45BFA51F1E897514004E33FC /* Assets.xcassets in Resources */,
+				45BFA51D1E897514004E33FC /* Main.storyboard in Resources */,
+				450FF0CE1E897A2B00534E6E /* GVanillaTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BFA5261E897514004E33FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BFA5311E897514004E33FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C13B32BEDFB2CDE441E9B70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		32F7642DD7DD0B0625BFD463 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5F7C00115529C7CD46F77E28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-GVanillaTableViewUITests/Pods-GVanillaTableViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		869A5D339A9F09583E70F193 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-GVanillaTableView/Pods-GVanillaTableView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95B2FE85D7FD9A163C02D8E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-GVanillaTableViewTests/Pods-GVanillaTableViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96D71F59563DEC12924EE60D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-GVanillaTableViewUITests/Pods-GVanillaTableViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5D16D09AED050415CEE2A65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-GVanillaTableViewTests/Pods-GVanillaTableViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D20FCCACAA77631B16696ACA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-GVanillaTableView/Pods-GVanillaTableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D918B0CBBFAA63E89F2011F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45BFA5101E897514004E33FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BFA51A1E897514004E33FC /* TableViewController.swift in Sources */,
+				450FF0C61E89788000534E6E /* Data.swift in Sources */,
+				450FF0D01E897BE900534E6E /* CoreService.swift in Sources */,
+				450FF0C81E89788000534E6E /* Preview.swift in Sources */,
+				450FF0C51E89788000534E6E /* Contributor.swift in Sources */,
+				450FF0C91E89788000534E6E /* SmallThumb.swift in Sources */,
+				450FF0CA1E89788000534E6E /* SpellcheckInfo.swift in Sources */,
+				450FF0C71E89788000534E6E /* LargeThumb.swift in Sources */,
+				450FF0D21E897D7E00534E6E /* ImageService.swift in Sources */,
+				45BFA5181E897514004E33FC /* AppDelegate.swift in Sources */,
+				450FF0CD1E897A2B00534E6E /* GVanillaTableViewCell.swift in Sources */,
+				450FF0C31E89788000534E6E /* Assets.swift in Sources */,
+				450FF0C41E89788000534E6E /* BaseClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BFA5241E897514004E33FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BFA52D1E897514004E33FC /* GVanillaTableViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BFA52F1E897514004E33FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BFA5381E897514004E33FC /* GVanillaTableViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45BFA52A1E897514004E33FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45BFA5131E897514004E33FC /* GVanillaTableView */;
+			targetProxy = 45BFA5291E897514004E33FC /* PBXContainerItemProxy */;
+		};
+		45BFA5351E897514004E33FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45BFA5131E897514004E33FC /* GVanillaTableView */;
+			targetProxy = 45BFA5341E897514004E33FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45BFA51B1E897514004E33FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45BFA51C1E897514004E33FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45BFA5201E897514004E33FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45BFA5211E897514004E33FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45BFA53A1E897514004E33FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45BFA53B1E897514004E33FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45BFA53D1E897514004E33FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1812344F05E7577566383A9E /* Pods-GVanillaTableView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RE4YFXSB23;
+				INFOPLIST_FILE = GVanillaTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ph.com.cituslabs.GVanillaTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		45BFA53E1E897514004E33FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13725626495BDB03174EFFB4 /* Pods-GVanillaTableView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RE4YFXSB23;
+				INFOPLIST_FILE = GVanillaTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ph.com.cituslabs.GVanillaTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		45BFA5401E897514004E33FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E348F91BFD17B564F7E21EE /* Pods-GVanillaTableViewTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RE4YFXSB23;
+				INFOPLIST_FILE = GVanillaTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ph.com.cituslabs.GVanillaTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GVanillaTableView.app/GVanillaTableView";
+			};
+			name = Debug;
+		};
+		45BFA5411E897514004E33FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2B4C20155C8712BD63BFB2E /* Pods-GVanillaTableViewTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RE4YFXSB23;
+				INFOPLIST_FILE = GVanillaTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ph.com.cituslabs.GVanillaTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GVanillaTableView.app/GVanillaTableView";
+			};
+			name = Release;
+		};
+		45BFA5431E897514004E33FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3DCAFFB54A7DA3BE35EE0A9 /* Pods-GVanillaTableViewUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RE4YFXSB23;
+				INFOPLIST_FILE = GVanillaTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ph.com.cituslabs.GVanillaTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GVanillaTableView;
+			};
+			name = Debug;
+		};
+		45BFA5441E897514004E33FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25F3E0B6F2BFAB892EBAB915 /* Pods-GVanillaTableViewUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RE4YFXSB23;
+				INFOPLIST_FILE = GVanillaTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ph.com.cituslabs.GVanillaTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GVanillaTableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45BFA50F1E897514004E33FC /* Build configuration list for PBXProject "GVanillaTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45BFA53A1E897514004E33FC /* Debug */,
+				45BFA53B1E897514004E33FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45BFA53C1E897514004E33FC /* Build configuration list for PBXNativeTarget "GVanillaTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45BFA53D1E897514004E33FC /* Debug */,
+				45BFA53E1E897514004E33FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45BFA53F1E897514004E33FC /* Build configuration list for PBXNativeTarget "GVanillaTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45BFA5401E897514004E33FC /* Debug */,
+				45BFA5411E897514004E33FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45BFA5421E897514004E33FC /* Build configuration list for PBXNativeTarget "GVanillaTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45BFA5431E897514004E33FC /* Debug */,
+				45BFA5441E897514004E33FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45BFA50C1E897514004E33FC /* Project object */;
+}
